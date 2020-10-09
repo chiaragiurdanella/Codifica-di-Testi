@@ -1,1 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<text>
+    il primo xml con validazione
+</text>
+<text />
 
+<!-- errore rilevato utilizzando il comando xmllint:
+xmlfirst.xml:16: parser error : Extra content at the end of the document
+<text />
+
+L'errore deriva dal fatto che nel corpo non è presente un elemento radice, perciò il documento xml risulta essere non ben formato.
+La soluzione è aggiungere l'elemento radice.
+
+Correzione:
+<root>
+    <text>
+        il primo xml con validazione
+    </text>
+    <text />
+</root>
+-->
+
+<!--l'esercizio richiede inoltre di aggiungere un figlio (child) a un elemento e un fratello (sibling) a un elemento.
+<root>
+    <text>
+        il primo xml con validazione
+        <child />
+    </text>
+    <sibling />
+    <text />
+</root>
+-->
