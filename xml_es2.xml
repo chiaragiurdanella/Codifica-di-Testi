@@ -1,1 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
 
+<!-- l'esercizio consiste nello scrivere e fare il check di un xml non opportunamente annidato -->
+<esempio>
+    <b>testo in grassetto<i></b>testo in grassetto e italico</i>
+</esempio>
+
+<!-- OUTPUT DI XMLLINT
+
+es2.xml:5: parser error : Opening and ending tag mismatch: i line 5 and b
+    <b>testo in grassetto<i></b>testo in grassetto e italico</i>
+                                
+es2.xml:5: parser error : Opening and ending tag mismatch: b line 5 and i
+    <b>testo in grassetto<i></b>testo in grassetto e italico</i>
+-->
+
+<!-- CORPO DEL DOCUMENTO XML BEN FORMATO
+<esempio>
+    <b>testo in grassetto<i>testo in italico</i></b>
+</esempio>
+-->
