@@ -1,0 +1,1375 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE TEI SYSTEM "tei_all.dtd">
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+            
+			<titleStmt>
+				<title>Vincenzo Bellini a Vincenzo Ferlito, in Parigi, 18 maggio 1835</title>
+				<author ref="#VB">Vincenzo Bellini</author>
+                <respStmt>
+					<resp>Responsabilità di </resp>
+					<name xml:id="AMDG">Angelo Mario Del Grosso</name>
+					<name xml:id="DS">Daria Spampinato</name>
+					<name xml:id="EC">Erica Capizzi</name>
+				</respStmt>
+				<respStmt>
+					<resp>Trascrizione di</resp>
+					<name xml:id="GS">Graziella Seminara</name>
+				</respStmt>
+			</titleStmt>
+
+			<editionStmt>
+				<edition>Edizione Digitale
+					<date when="2020-12">Dicembre 2020</date>
+				</edition>
+				<respStmt>
+					<resp>Progetto edizione digitale coordinato da</resp>
+					<name xml:id="CG">Chiara Giurdanella</name>
+				</respStmt>
+				<respStmt>
+					<resp>Codifica di</resp>
+					<name ref="#CG">Chiara Giurdanella</name>
+				</respStmt>
+			</editionStmt>
+
+            <publicationStmt>
+                <publisher>UNIPI</publisher><!-- sarà la Fondazione Bellini -->
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</licence>
+                </availability>
+            </publicationStmt>
+
+            <sourceDesc>
+                <bibl source="#Seminara2017" resp="#GS" ana="433">
+                    <citedRange unit="page" from="505" to="506">505-506</citedRange>
+                </bibl>
+
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement type="municipality">Catania</settlement>
+                        <repository role="museum" ref="http://www.rism.info/typo3conf/ext/user_apachesolr/result.php?q=id:30003436 https://www.comune.catania.it/la-citta/culture/monumenti-e-siti-archeologici/musei/museo-civico-belliniano/" n="I-CATm">Museo Belliniano Catania</repository>
+                        <idno type="inventory">LL1.26</idno>
+                        <altIdentifier>
+                            <idno type="collocation">casa natale, sala B, vetrina 5, ripiano 2, I</idno>
+                        </altIdentifier>
+                    </msIdentifier>
+                    <msContents>
+                        <msItem>
+                            <author xml:lang="it" ref="#VB">Vincenzo Bellini</author>
+                            <title type="uniform" xml:lang="it">
+                                <persName ref="#VB" role="composer">Vincenzo Bellini</persName> a 
+                                <persName ref="#VF">Vincenzo Ferlito</persName>, in 
+                                <placeName ref="#Paris">Parigi</placeName>, 
+                                <date when="1835-05-18">18 maggio 1835</date>
+                            </title>
+                            <textLang mainLang="it" otherLangs="fr">Italiano di inizio Ottocento con indirizzo in francese</textLang>
+                            <note>L'anno di redazione della lettera è stato attriuito da <persName ref="#GS">Graziella Seminara</persName> e non era presente nel documento originale.</note>
+                        </msItem>
+                    </msContents>
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <material>Carta sottile</material>
+                                    <!-- descrizione fisica della lettera -->
+                                    <p>Lettera in condizioni fisiche non ottimali, composta da un solo folio compilato da entrambi i lati, piegato in più parti.</p>
+                                    <p>Sono presenti numerosi buchi di lieve entità che si estendono per tutta la superficie del folio, in particolare nella zona centrale.</p>
+                                    <p>I bordi sono leggermente rovinati a causa dell'invecchiamento. Sono presenti due lacerazioni di entità maggiore, una nell'angolo superiore destro del fronte, l'altra lungo il bordo inferiore.</p>
+                                    <p>La carta ingiallita è sottile e senza filigrana. L'inchiostro è sbiadito e tendente al marrone, e da entrambi i lati del foglio è possibile intravedere il testo presente sulla facciata opposta. </p>
+                                    <p>Macchie di colore marrone sono presenti sia sul fronte che sul retro del folio, probabilmente dovute all'invecchiamento del supporto materiale.</p>
+                                </support>
+                                <extent> 
+                                    <measure type="folio">1</measure>
+                                    <dimensions unit="mm">
+                                        <height>202</height>
+                                        <width>133</width>
+                                    </dimensions>
+                                </extent>
+                                <foliation>Sono presenti segni di piegature asimmetriche, che ci indicano che il folio è stato ripiegato più volte. Tra le piegature più evidenti ne abbiamo una al mezzo in orizzontale e altre due lungo le estremità inferiore e superiore. Verticalmente il folio sembra essere stato piegato 4 o 5 volte.</foliation>
+                                <condition>
+                                    <p>La lettera è in condizioni fisiche non ottimali.</p>
+                                </condition>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc hands="2">
+                            <handNote xml:id="h1">
+                                <p>Scrittura in corsivo a mano libera abbastanza leggibile a cura dell'autore.</p>
+                            </handNote>
+                            <handNote xml:id="h2">
+								<p>Il retro del folio presenta un'annotazione di seconda mano a matita blu, probabilmente dovuta ad un catalogatore, la quale presenta delle lettere non decifrabili e le cifre 2 4.</p>
+							</handNote>
+                        </handDesc>
+                    </physDesc>
+                    <!-- informazioni aggiuntive sul carteggio -->
+                    <additional>
+                        <adminInfo>
+                            <note xml:id="additionalNota"> 
+                                All'interno del carteggio belliniano (LL), la segnatura LL1.26 identifica la ventiseiesima missiva in ordine cronologico del primo sottogruppo, che corrisponde alle lettere scritte da Vincenzo Bellini. 
+                            </note>
+                        </adminInfo>
+                    </additional>
+                </msDesc>
+
+                <!-- LISTE PERSONE, LUOGHI, ORGANIZZAZIONI, TERMINI-->
+                <listPerson>
+                    <head>Lista Persone</head>
+                    <person xml:id="VB" sameAs="http://viaf.org/viaf/39560983"> 
+                        <persName role="composer">
+                            <ref target="https://it.wikipedia.org/wiki/Vincenzo_Bellini "/>
+                            <forename>Vincenzo</forename>
+                            <forename>Salvatore</forename>
+                            <forename>Carmelo</forename>
+                            <forename>Francesco </forename> 
+                            <surname>Bellini</surname>
+                            <addName type="alias">Il Cigno</addName>
+                            <roleName type="honorific">Cavaliere della Legione d'onore</roleName> 
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+                            <date when="1801-11-03">3 novembre 1801</date>
+                            <placeName ref="#CT">
+                                <settlement type="municipality">Catania</settlement>
+                                <settlement type="provincia" key="CT">Catania</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </birth>
+                        <death>
+                            <date when="1835-09-23">23 settembre 1835</date>
+                            <placeName ref="#Put">
+                                <settlement type="municipality">Puteaux</settlement>
+                                <settlement type="department" key="Paris">Paris</settlement>
+                                <country key="FR">France</country>
+                            </placeName>
+                        </death>
+                        <note source="https://it.wikipedia.org/wiki/Vincenzo_Bellini">
+                        </note>              
+                    </person>
+
+                    <person xml:id="VF"> 
+                        <persName> 
+                            <forename>Vincenzo</forename>
+                            <surname>Ferlito</surname>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+                            <date when="1780" cert="medium">1780</date>
+                            <placeName ref="#CT">
+                                <settlement type="municipality">Catania</settlement>
+                                <settlement type="province" key="CT">Catania</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </birth>
+                        <death>
+                            <date when="1850">1850</date>
+                            <placeName ref="#London">
+                                <settlement type="municipality">London</settlement>
+                                <settlement type="country">Greater London</settlement>
+                                <country key="GB">Great Britain</country>
+                            </placeName>
+                        </death>
+                        <note source="#Seminara2017" resp="#GS" ana="38">
+                            <bibl>   <!--  note dell'edizione critica della Seminara -->
+                                <citedRange unit="page" from="77" to="77">77</citedRange>
+                            </bibl>
+                            <p>
+                                Vincenzo Ferlito (Catania, 1780 ca. - 1850) era zio materno di <persName ref="#VB" role="composer">Bellini</persName>; aveva sposato <persName ref="#RM">Rosaria Maugeri</persName>, indicata dal musicista come “zia Sara”. Bellini si rivolgeva a lui per far pervenire proprie notizie alla famiglia.
+                            </p>
+                        </note> 
+                    </person>
+                
+                    <person xml:id="Ministro">
+                        <persName>
+                           <roleName>Ministro</roleName>
+                            <forename type="unknown"/>
+                            <surname type="unknown"/>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+                          <date type="unknown"/>
+                          <placeName type="unknown"/>
+                        </birth>
+                        <death>
+                          <date type="unknown"/>
+                          <placeName type="unknown"/>
+                        </death>
+                        <note resp="#CG">
+                            <p>Non identificato</p>
+                        </note>
+                    </person>
+
+                    <person xml:id="CP" sameAs="http://viaf.org/viaf/79049762"> 
+          	            <persName role="librettist"> 
+                            <ref target="http://data.rism.info/id/rismauthorities/pe30101038 http://www.treccani.it/enciclopedia/carlo-pepoli_(Dizionario-Biografico)"/>
+                            <forename>Carlo</forename>
+                            <surname>Pepoli</surname>
+                            <roleName>conte</roleName>
+                        </persName>
+                        <sex>M</sex>
+                        <birth>
+                            <date when="1796-07-22">22 luglio 1796</date>
+                  	        <placeName>
+            			        <settlement type="municipality">Bologna</settlement>
+            	 			    <settlement type="provincia" key="BO">Bologna</settlement>
+            	 			    <country key="IT">Italia</country>
+            			    </placeName>
+             	        </birth>
+                        <death>    
+                            <date when="1881-12-07">7 dicembre 1881</date>
+                 	        <placeName>
+            				    <settlement type="municipality">Bologna</settlement>
+            	 			    <settlement type="provincia" key="BO">Bologna</settlement>
+            	 			    <country key="IT">Italia</country>
+            			    </placeName>
+                        </death>
+ 						<note source="#Seminara2017" resp="#GS" ana="551">
+                            <bibl>
+             	  	            <citedRange unit="page" from="331" to="331">331</citedRange>
+             	            </bibl>
+                            <p>Carlo Pepoli (Bologna, 1796 - 1881) aveva predisposto il <term subtype="music-term" ref="#libretto">libretto</term> dei <rs type="work" ref="#Puritani">Puritani</rs>. Amico di <persName>Giacomo Leopardi</persName>, aveva partecipato ai moti carbonari del 1831 e - dopo esser stato detenuto in carcere a Venezia - nel 1833 si era recato in esilio a Parigi; in quello stesso anno aveva pubblicato una raccolta di scritti in due volumi (Prose. Volume primo e Versi. Volume primo) presso l'editore Vignier di Ginevra. Il poeta bolognese conobbe <persName ref="#VB" role="composer">Bellini</persName> nel salotto di <persName ref="TEI-ListPerson.xml#CTB" role="writer">Cristina Trivulzio di Belgiojoso</persName>, nel quale si fece apprezzare anche come autore di testi per musica: i suoi versi furono intonati da <persName ref="TEI-ListPerson.xml#MC" role="composer">Michele Costa</persName>, <persName ref="TEI-ListPerson.xml#VG">Vincenzo Gabussi</persName>, <persName ref="TEI-ListPerson.xml#GR">Rossini</persName> e <persName ref="TEI-ListPerson.xml#NV">Vaccaj</persName>, nonche' dallo stesso <persName ref="#VB" role="composer">Bellini</persName>.</p>
+                        </note> 
+                    </person>
+
+                    <person xml:id="FPC" sameAs="http://viaf.org/viaf/208235133"> 
+                        <persName> 
+                            <ref target="https://it.wikipedia.org/wiki/Francesco_Paternò_Castello"/>
+                            <forename>Francesco</forename>
+                            <surname>Paternò</surname>
+                            <surname>Castello</surname>
+                            <roleName>duca di Carcaci</roleName>
+                        </persName>
+                        <sex>M </sex>
+                        <birth>
+                            <date when="1786-08-15">15 agosto 1786</date>
+                            <placeName ref="#CT">
+                                <settlement type="municipality">Catania</settlement>
+                                <settlement type="province" key="CT">Catania</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </birth>
+                        <death>
+                            <date when="1854-04-08">8 aprile 1854</date>
+                            <placeName ref="#CT">
+                                <settlement type="municipality">Catania</settlement>
+                                <settlement type="province" key="CT">Catania</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </death>
+                        <note source="#Seminara2017" resp="#GS" ana="353">
+                            <bibl>
+                                <citedRange unit="page" from="220" to="220">220</citedRange>
+                            </bibl>
+                            <p>
+                                Francesco Paternò Castello (Catania, 1786 - 1854), nel 1838 – alla morte del nipote Mario – sarebbe diventato VII duca di Carcaci e Gentiluomo di Camera di Ferdinando II, re delle Due Sicilie. Nel 1826 venne nominato primo direttore dell’Accademia Gioenia di <placeName ref="#CT">Catania</placeName> e fu autore di una <hi rend="italic">Descrizione di Catania e delle cose notevoli ne’ dintorni di essa</hi> (Catania, Giuntini, 1841). Compositore dilettante, era un ammiratore del musicista che si premurava di inviargli gli <term subtype="music-term" ref="TEI-ListTerm.xml#spartito">spartiti</term> delle proprie opere.
+                            </p>
+                        </note> 
+                    </person>
+                    
+                    <person xml:id="AF"> 
+                        <persName> 
+                            <forename>Agata</forename>
+                            <surname>Ferlito</surname>
+                        </persName>
+                        <sex>F </sex>
+                        <birth>
+                            <date when="1778">1778</date>
+                            <placeName ref="#CT">
+                                <settlement type="municipality">Catania</settlement>
+                                <settlement type="province" key="CT">Catania</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </birth>
+                        <death>
+                            <date when="1842">1842</date>
+                            <placeName ref="#CT">
+                                <settlement type="municipality">Catania</settlement>
+                                <settlement type="province" key="CT">Catania</settlement>
+                                <country key="IT">Italia</country>
+                            </placeName>
+                        </death>
+                        <note resp="#GS">
+                            <p>
+                                Agata Ferlito (Catania, 1778 -1842) apparteneva a una famiglia relativamente agiata poiché il padre Carmelo era funzionario presso l’amministrazione catanese. Sposò <persName ref="#RB">Rosario Bellini</persName> il 17 gennaio 1801 e con lui si stabilì in un modesto appartamento di tre stanze ricavato dalle dépendances del settecentesco palazzo Gravina Cruylas, situato in Largo San Francesco a <placeName ref="#CT"> Catania </placeName>. I due coniugi ebbero sette figli: <persName ref="#VB">Vincenzo</persName>, il primogenito, nel 1801, Carmelo nel 1803, Francesco nel 1804, Michela nel 1806, Giuseppa nel 1807, Mario nel 1810, Maria nel 1813.
+                            </p>
+                        </note> 
+                    </person>
+
+                    <person xml:id="RB">
+            			<persName>
+            				<ref target="https://www.cittametropolitana.ct.it/ProvinciaCT/la-rivista/sommario/2006/Dicembre/filepdf/19.pdf" />
+            				<forename>Rosario</forename>
+            				<surname>Bellini</surname>
+            			</persName>
+            			<sex>M</sex>
+            			<birth>
+            				<date type="unknown" />
+            				<placeName type="unknown" />
+            			</birth>
+            			<death>
+            				<date when="1840-02-03">3 febbraio 1840</date>
+            				<placeName ref="#CT">
+            					<settlement type="municipality">Catania</settlement>
+            					<settlement type="provincia" key="CT">Catania</settlement>
+            					<country key="IT">Italia</country>
+            				</placeName>
+            			</death>
+            			<note resp="#CG" >
+            				<p>
+            					Rosario Bellini, padre di <persName ref="#VB" role="composer">Vincenzo Bellini</persName>, sposò <persName ref="#AF">Agata Ferlito</persName> il <date when="1801-01-17">17 gennaio 1801</date>.
+            				</p>
+            			</note> 
+            		</person>
+
+                    <person xml:id="RM"> 
+            			<persName>
+            				<forename>Rosaria</forename>
+            				<surname>Maugeri</surname>
+            				<addName type="alias">Sara</addName>
+            			</persName>
+            			<sex>F </sex>
+            			<birth>
+							<date type="unknown" />
+            				<placeName type="unknown" />
+            			</birth>
+            			<death>
+							<date type="unknown" />
+            				<placeName type="unknown" />
+            			</death>
+            		</person>
+
+                    <person xml:id="AGP"> 
+            			<persName>
+            				<forename>Angelica</forename>
+                            <forename>Paola</forename>
+            				<surname>Giuffrida</surname>
+            			</persName>
+            			<sex>F </sex>
+            			<birth>
+							<date when="1811">1811</date>
+            				<placeName ref="#CT">
+            					<settlement type="municipality">Catania</settlement>
+            					<settlement type="provincia" key="CT">Catania</settlement>
+            					<country key="IT">Italia</country>
+            				</placeName>
+            			</birth>
+            			<death>
+							<date when="1844">1844</date>
+            				<placeName type="unknown" />
+            			</death>
+                        <note source="#Seminara2017" resp="#GS" ana="440">
+                            <bibl>
+                                <citedRange unit="page" from="263" to="263">263</citedRange>
+                            </bibl>
+                            <p>
+                                Angelica Paola Giuffrida (Catania, 1811 - 1844), chiamata confidenzialmente “Lidda”, figlia di Ignazio Giuffrida Moschetti e Giuseppa Nicotra e consorte di Gaetano Paola. A lei Bellini dedicò una versione della Cavatina per canto e pianoforte «Dolente immagine di Fille mia». [...]
+                            </p>
+                        </note>	
+            		</person>
+
+                    <person xml:id="MS"> 
+            			<persName>
+            				<forename>Maria</forename>
+            				<surname>Scammacca</surname>
+                            <roleName>duchessa di Carcaci</roleName>
+            			</persName>
+            			<sex>F </sex>
+            			<birth>
+							<date when="1790">1790</date>
+            				<placeName ref="#CT">
+            					<settlement type="municipality">Catania</settlement>
+            					<settlement type="provincia" key="CT">Catania</settlement>
+            					<country key="IT">Italia</country>
+            				</placeName>
+            			</birth>
+            			<death>
+							<date type="unknown" />
+            				<placeName type="unknown" />
+            			</death>
+                        <note resp="#GS">
+                            <p>
+                                Baronessa Maria Scammacca (Catania 1790 – prima metà del XIX secolo), figlia di Guglielmo, Barone della Bruca e di Crisciunà, e di Giovanna Arezzo dei Baroni di Donnafugata. Nel 1806 aveva sposato Vincenzo Emanuele Giovanni Paternò Castello (1783 - 1834), V Duca di Carcaci, dal quale ebbe quattro figli tra cui Mario, destinato a diventare il VI Duca di Carcaci.
+                            </p>
+                        </note>	
+            		</person>
+
+                    <person xml:id="MPC"> 
+            			<persName>
+            				<forename>Mario</forename>
+            				<surname>Paternò</surname>
+                            <surname>Castello</surname>
+                            <roleName>VI duca di Carcaci</roleName>
+            			</persName>
+            			<sex>M </sex>
+            			<birth>
+							<date when="1812">1812</date>
+            				<placeName ref="#CT">
+            					<settlement type="municipality">Catania</settlement>
+            					<settlement type="provincia" key="CT">Catania</settlement>
+            					<country key="IT">Italia</country>
+            				</placeName>
+            			</birth>
+            			<death>
+							<date when="1838">1838</date>
+            				<placeName>Firenze</placeName>
+            			</death>
+                        <note source="#Seminara2017" resp="#GS" ana="846">
+                            <bibl>
+                                <citedRange unit="page" from="495" to="495">495</citedRange>
+                            </bibl>
+                            <p>
+                                Mario Paternò Castello (Catania, 1812-Firenze, 1838) nel 1834 – alla morte del padre Vincenzo Emanuele – era divenuto VI duca di Carcaci.
+                            </p>
+                        </note>	
+            		</person>
+
+                    <person xml:id="GAPC"> 
+            			<persName>
+            				<forename>Giuseppe</forename>
+                            <forename>Alvaro</forename>
+            				<surname>Paternò</surname>
+                            <surname>Castello</surname>
+            			</persName>
+            			<sex>M </sex>
+            			<birth>
+							<date when="1784">1784</date>
+            				<placeName ref="#CT">
+            					<settlement type="municipality">Catania</settlement>
+            					<settlement type="provincia" key="CT">Catania</settlement>
+            					<country key="IT">Italia</country>
+            				</placeName>
+            			</birth>
+            			<death>
+							<date when="1836">1836</date>
+            				<placeName ref="#NA">Napoli</placeName>
+            			</death>
+                        <note source="#Seminara2017" resp="#GS" ana="863">
+                            <bibl>
+                                <citedRange unit="page" from="506" to="506">506</citedRange>
+                            </bibl>
+                            <p>
+                                Giuseppe Alvaro Paternò Castello, III principe di Sperlinga e III principe di Manganelli (Catania, 1784 - Napoli, 1836), che fu successore di Stefano Notarbartolo nel ruolo di Intendente del Valle di Catania.
+                            </p>
+                        </note>	
+            		</person>
+
+                    <person xml:id="GPC"> 
+            			<persName>
+            				<forename>Giovanni</forename>
+            				<surname>Paternò</surname>
+                            <surname>Castello</surname>
+            			</persName>
+            			<sex>M </sex>
+            			<birth>
+							<date when="1805">1805</date>
+            				<placeName ref="#CT">
+            					<settlement type="municipality">Catania</settlement>
+            					<settlement type="provincia" key="CT">Catania</settlement>
+            					<country key="IT">Italia</country>
+            				</placeName>
+            			</birth>
+            			<death>
+							<date type="unknown" />
+            				<placeName type="unknown" />
+            			</death>
+                        <note resp="#CG">
+                            <p>
+                                Giovanni Paternò Castello (Catania, 1805 - seconda metà del secolo XIX), zio di Mario Paternò Castello VI duca di Carcaci e fratello di Vincenzo Emanuele Giovanni Paternò Castello.
+                            </p>
+                        </note>	
+            		</person>
+
+                    <person xml:id="APC"> 
+            			<persName>
+            				<forename>Antonino</forename>
+            				<surname>Paternò</surname>
+                            <surname>Castello</surname>
+            			</persName>
+            			<sex>M </sex>
+            			<birth>
+							<date when="1817">1817</date>
+            				<placeName type="unknown" />
+            			</birth>
+            			<death>
+							<date when="1888">1888</date>
+            				<placeName type="unknown" />
+            			</death>
+                        <note source="#Seminara2017" resp="#GS" ana="863">
+                            <bibl>
+                                <citedRange unit="page" from="506" to="506">506</citedRange>
+                            </bibl>
+                            <p>
+                                Antonino Paternò Castello (1817-1888), che nel 1838 – alla morte del padre Giuseppe Alvaro – sarebbe diventato IV Principe di Sperlinga e IV Principe di Manganelli.
+                            </p>
+                        </note>	
+            		</person>
+
+                    <person xml:id="LDV"> 
+            			<persName>
+            				<forename>Louis</forename>
+            				<forename>Désiré</forename>
+                            <surname>Véron</surname>
+            			</persName>
+            			<sex>M </sex>
+            			<birth>
+							<date when="1798">1798</date>
+            				<placeName ref="#Paris">Parigi</placeName>
+            			</birth>
+            			<death>
+							<date when="1867">1867</date>
+            				<placeName type="unknown" />
+            			</death>
+                        <note resp="#GS">
+                            <p>
+                                Louis-Désiré Véron (Parigi, 1798 - 1867), che dal 1831 era direttore dell’Opéra. Véron tenne la carica sino al primo settembre del 1835, quando gli subentrò Charles-Edmond Duponchel (Parigi, 1795 - 1868).
+                            </p>
+                        </note>	
+            		</person>
+
+                    <person xml:id="FFlo"> 
+            			<persName role="composer">
+            				<ref target="http://www.treccani.it/enciclopedia/francesco-florimo_(Dizionario-Biografico)/"/>
+            				<forename>Francesco</forename>
+            				<surname>Florimo</surname>
+            			</persName>
+            			<sex>M </sex>
+            			<birth>
+							<date when="1800-10-12">12 ottobre 1800</date>
+            				<placeName>
+            					<settlement type="municipality">San Giorgio Morgeto</settlement>
+            					<settlement type="provincia" key="RC">Reggio Calabria</settlement>
+            					<country key="IT">Italia</country>
+            				</placeName>
+            			</birth>
+            			<death>
+							<date when="1888-12-18">18 dicembre 1888</date>
+            				<placeName  ref="#NA">
+            					<settlement type="municipality">Napoli</settlement>
+            					<settlement type="provincia" key="NA">Napoli</settlement>
+            					<country key="IT">Italia</country>
+            				</placeName>
+            			</death>	
+            		</person>
+            		
+            		<person xml:id="IGM"> 
+            			<persName>
+            				<forename>Ignazio</forename>
+            				<surname>Giuffrida</surname>
+                            <surname>Moschetti</surname>
+            			</persName>
+            			<sex>M </sex>
+            			<birth>
+							<date type="unknown" />
+            				<placeName ref="#CT">
+            					<settlement type="provincia" key="CT">Catania</settlement>
+            					<country key="IT">Italia</country>
+            				</placeName>
+            			</birth>
+            			<death>
+							<date type="unknown" />
+            				<placeName type="unknown" />
+            			</death>
+            		</person>
+
+                    <person xml:id="FF"> 
+            			<persName>
+            				<forename>Francesco</forename>
+            				<surname>Ferlito</surname>
+            				<addName type="alias">Don Ciccio</addName>
+            			</persName>
+            			<sex>M </sex>
+            			<birth>
+							<date type="unknown" />
+            				<placeName type="unknown" />
+            			</birth>
+            			<death>
+							<date type="unknown" />
+            				<placeName type="unknown" />
+            			</death>
+            		</person>
+
+                    <listRelation>
+            			<relation name="spouse" mutual="#VF #RM"/>
+            			<relation name="mother" active="#AF" passive="#VB"/>
+                        <relation name="father" active="#RB" passive="#VB"/>
+            			<relation name="sibling" mutual="#AF #VF #FF"/>
+            			<relation name="spouse" mutual="#AF #RB"/>
+            			<relation name="aunt" active="#RM" passive="#VB"/>
+            			<relation name="uncle" active="#VF" passive="#VB"/>
+                        <relation name="uncle" active="#FF" passive="#VB"/>
+                        <relation name="father" active="#IGM" passive="#AGP"/>
+                        <relation name="mother" active="#MS" passive="#MPC"/>
+                        <relation name="uncle" active="#GPC" passive="#MPC"/>
+                        <relation name="uncle" active="#FPC" passive="#MPC"/>
+                        <relation name="father" active="#GAPC" passive="#APC"/>
+            		</listRelation>
+                </listPerson>
+
+                 <listPlace>
+                    <head>Lista dei luoghi</head>
+                    <!-- Luoghi francesi citati -->
+                    <!-- Parigi -->
+                    <place xml:id="Paris">
+                        <placeName type="nomelista" ref="http://www.geonames.org/2988507"><ref target="http://www.treccani.it/enciclopedia/parigi/"/>Paris</placeName>
+                        <country key="FR">France</country>
+                    </place>
+                    <!-- Neuilly-sur-Seine -->
+                    <place xml:id="NSS">
+                        <placeName type="nomelista" ref="http://www.geonames.org/2990611"><ref target="http://www.treccani.it/enciclopedia/ricerca/Neuilly-sur-Seine/"/>Neuilly-sur-Seine</placeName>
+                        <district type="arrondissement">Nanterre</district>
+                        <settlement type="city">Paris</settlement>
+                        <country key="FR">France</country>
+                    </place>
+                    <!-- Puteaux -->
+                    <place xml:id="Put">
+                        <placeName type="nomelista" ref="http://www.geonames.org/2985034"><ref target="http://www.treccani.it/enciclopedia/puteaux_(Enciclopedia-Italiana)"/>Puteaux</placeName>
+                        <district type="arrondissement">Nanterre</district>
+                        <settlement type="city">Paris</settlement>
+                        <country key="FR">France</country>
+                        <note source="#Seminara2017" resp="#GS" ana="580">
+                            <bibl>
+                                <citedRange unit="page" from="346" to="346">346</citedRange>
+                            </bibl>
+                            <p>
+                                Puteaux era un sobborgo di <placeName ref="#Paris">Parigi</placeName>, immerso nel verde e situato sulla <foreign xml:lang="fr">rive gauche</foreign> della Senna. Qui <persName ref="#VB" role="composer">Bellini</persName> si stabilì dal <date from="1834-05-26" to="1834-11-01">26 maggio al 1° novembre 1834</date> e di nuovo nel <date from="1835-05-11" to="1835-09-23">1835 dall'11 maggio al 23 settembre</date>(giorno della morte) nella residenza di <persName ref="TEI-ListPerson.xml#SL">Solomon Levy (o Lewis)</persName>, un facoltoso ebreo inglese che verosimilmente aveva conosciuto nel <date when="1830">1830</date> a <placeName ref="TEI-ListPlace.xml#MI">Milano</placeName>. <persName ref="TEI-ListPerson.xml#SL">Levy</persName>, che negli anni <date from="1834" to="1835">1834-35</date> si trattenne stabilmente a <placeName ref="#Paris">Parigi</placeName>, apparteneva alla cerchia delle più ristrette frequentazioni francesi del musicista; risiedeva in un lussuoso appartamento in <address><street>Boulevard des Capucines</street></address>, ma possedeva anche la residenza di Puteaux.
+                            </p>    
+                        </note>
+                    </place>
+                    <!-- Luoghi inglesi citati -->
+                    <!-- Londra -->
+                    <place xml:id="London">
+                        <placeName type="nomelista" ref="http://www.geonames.org/2643743">
+                        <ref target="http://www.treccani.it/enciclopedia/london/"/>London</placeName>
+                        <country key="GB">Great Britain</country>
+                    </place>
+                    <!-- Luoghi italiani citati -->
+                    <!-- Napoli -->
+                    <place xml:id="NA">
+                        <placeName type="nomelista" ref="http://www.geonames.org/3172394"><ref target="http://www.treccani.it/enciclopedia/napoli/"/>Napoli</placeName>
+                        <country key="IT">Italia</country>
+                    </place>
+                    <!-- Catania -->
+                    <place xml:id="CT">
+                        <placeName type="nomelista" ref="http://www.geonames.org/2525068/catania.html">
+                        <ref target="http://www.treccani.it/enciclopedia/catania/"/>Catania</placeName>
+                        <country key="IT">Italia</country>
+                    </place>
+                    <!-- Venezia -->           
+                    <place xml:id="VE">
+                        <placeName  type="nomelista" ref="http://www.geonames.org/3164603"><ref target="http://www.treccani.it/enciclopedia/venezia"/>Venezia</placeName>
+                        <country key="IT">Italia</country>
+                    </place>
+                    <!--Etna-->
+                    <place xml:id="Etna">
+            			<placeName ref="http://www.treccani.it/enciclopedia/etna/">
+            				<geogName>Etna</geogName>
+            				<settlement type="city" ref="#CT">Catania</settlement>
+            				<region>Sicilia</region>
+            				<country key="IT">Italia</country>
+            			</placeName>
+            		</place>
+
+                    <listRelation>
+						<relation name="near" mutual="#Put #NSS"/>
+					</listRelation>
+                </listPlace>
+                
+                <!-- lista organizzazioni -->
+                <listOrg>
+                    <head>Lista di Teatri ed Enti</head>
+                    <!-- TEATRO OPERA DI PARIGI -->
+                    <org type="theatre" xml:id="Opera">
+                        <orgName ref="https://it.wikipedia.org/wiki/Opéra_national_de_Paris">Opéra national de Paris</orgName>
+                        <placeName ref="#Paris">Parigi</placeName>
+                        <desc source="https://it.wikipedia.org/wiki/Opéra_national_de_Paris">L'Opéra national de Paris è un teatro pubblico francese posto sotto la tutela del Ministero della Cultura francese. Esso ha come scopo di rendere accessibile il patrimonio lirico e coreografico al maggior numero di persone, e quello di favorire la creazione e la rappresentazione delle opere contemporanee. A questo titolo, l'Opéra, dispone di due sale: l'Opéra Garnier (che ospita la compagnia di balletto stabile del teatro) e l'Opéra Bastille.
+                        L'Opéra national de Paris contribuisce inoltre alla formazione professionale e al perfezionamento dei cantanti e dei ballerini, con il suo centro di formazione d'arte lirica e con la celebre scuola di danza di Nanterre. Il settore animazione e giovani elabora ogni stagione un programma pedagogico.</desc>
+                    </org>
+                </listOrg>
+                
+                <!-- lista dei termini musicali -->
+                <list type="terminology">
+                    <head>Vocabulary</head> 
+                    <!-- CORO -->
+                    <item xml:id="coro">
+                    <label>
+                        <term subtype="music-term" xml:lang="it"  key="">Coro</term>
+                    </label>                    
+                        <gloss xml:lang="it" target="#coro" source="TEI-ListBibl.xml#DellaSeta2010">
+                        Complesso formato da più <term subtype="music-term">voci</term> non solistiche che esegue brani all'unisono o, più frequentemente, a più parti; per estensione, il termine indica un brano musicale destinato a essere eseguito da tale complesso, in particolare nel <term subtype="music-term">teatro musicale</term>. <gap reason="editorial"/> Il coro divenne una componente fondamentale nell'Ottocento, sviluppandosi in forme sempre più complesse, come i cori doppi, per esigenze drammatiche e spettacolari. <gap reason="editorial"/>
+                        </gloss>
+                    </item>
+                    <!-- LIBRETTO -->  
+                    <item xml:id="libretto">
+                    <label>
+                        <term subtype="music-term" xml:lang="it"  key="">Libretto</term>
+                    </label>
+                        <ref target="https://it.wikipedia.org/wiki/Libretto"/>
+                        <gloss xml:lang="it" target="#libretto" source="TEI-ListBibl.xml#DellaSeta2010">
+                        Libro di piccolo formato contenente il testo letterario di un’<term subtype="music-term" ref="#opera">opera</term> o di altra composizione vocale di carattere drammatico e, per estensione, il testo stesso, costituito dalle parole destinate a essere cantate, in versi o, più raramente, in prosa, dalle descrizioni della <term subtype="music-term">scenografia</term> e dalle didascalie relative ai movimenti dei cantanti; può inoltre contenere indicazioni riguardanti uno specifico <term subtype="music-term">allestimento</term> dell’opera, il contesto storico della sua prima rappresentazione, a volte, dichiarazioni di poetica dell’autore o degli autori. Molte di queste informazioni, quali il nome del compositore, del coreografo e delle altre figure che collaborarono alla messa in scena della prima rappresentazione, l’elenco dei cantanti e dei ballerini che vi parteciparono, l’organico strumentale, l’esposizione dell’antefatto con la dichiarazione della fonte letteraria, la dedica e la lettera al lettore, hanno oggi un’importanza capitale per la comprensione storica della singola opera e del sistema produttivo in cui essa nacque. Dal punto di vista strettamente letterario, il libretto è da considerarsi principalmente come parte integrante di un’opera d’arte complessiva da cui dipende e che lo trascende. Sebbene in alcuni casi esso tenda a rivendicare una propria dignità letteraria, è innegabile che molti aspetti della sua struttura siano predeterminati dalle esigenze specifiche del <term subtype="music-term">teatro musicale</term> (prima fra tutte quella della declamazione cantata) e dalle innumerevoli convenzioni specifiche dei diversi generi operistici e dei diversi contesti storico-sociali. Così, la suddivisione in <term subtype="music-term" ref="TEI-ListTerm.xml#atto">atti</term> e <term subtype="music-term" ref="TEI-ListTerm.xml#scena">scene</term>, la successione dei <term subtype="music-term">numeri</term> chiusi, la quantità di <term subtype="music-term" ref="TEI-ListTerm.xml#aria">arie</term> affidate a un personaggio (<term subtype="music-term">convenienze</term>), la maggiore o minor presenza di <term subtype="music-term">pezzi d’assieme</term>, l’impiego di determinate tipologie metriche e strofiche, ma anche il tipo di soggetto trattato (mitologico, storico o letterario), le modalità del suo svolgimento e del suo scioglimento (tragico o lieto) possono essere ricondotti a convenzioni, rispetto alle quali l’autore può disporre di una maggiore o minore libertà d’azione. Sebbene la paternità del libretto sia generalmente riconosciuta al poeta che lo ha prodotto (<term subtype="music-term">librettista</term>), sono frequenti i casi in cui l’intervento del compositore ne modifica in modo sostanziale l’assetto, conducendo a divergenze anche notevoli fra la versione pubblicata e quella riportata in partitura (il che rende opportuno pubblicarle entrambe in forma distinta). Altrettanto significativi sono i casi in cui il compositore decide di contravvenire intenzionalmente alle indicazioni implicite del libretto, per esempio trasformando un <term subtype="music-term" ref="#recitativo">recitativo</term> in aria o viceversa, o ancora concependo situazioni musicali che contraddicono palesemente il senso del testo poetico.
+                        </gloss>
+                    </item>
+                    <!-- OPERA -->
+                    <item xml:id="opera">
+                    <label>
+                        <term subtype="music-term" xml:lang="it"  key="">Opera</term>
+                    </label>
+                        <gloss xml:lang="it" target="#opera" source="TEI-ListBibl.xml#DellaSeta2010">
+                            (dal plurale del latino opus, nel senso di “manufatto”) Spettacolo teatrale in cui l’azione si manifesta principalmente attraverso la musica e l’espressione canora dei personaggi. L’opera è un genere complesso, fondato sulla cooperazione tra testo letterario (<term subtype="music-term" ref="#libretto">libretto</term>), allestimento scenico e musica, che ha comunque una funzione essenziale nel caratterizzare drammaticamente il lavoro (drammaturgia musicale). Le differenti possibilità di relazione che intercorrono tra musica, libretto e aspetti scenici rendono pressoché impossibile una definizione univoca di opera. A ciò si aggiungono le difficoltà causate dall’evoluzione compiuta in quattro secoli di storia, dalla presenza sotto una comune etichetta di generi tra loro estremamente lontani, dalle specificità nazionali (sotto il profilo sia drammaturgico sia organizzativo). L’opera nacque nell’Italia del primo Seicento (Firenze, Mantova, Roma) come spettacolo di corte con carattere prevalentemente celebrativo. Dalla fine degli anni trenta, con l’apertura a Venezia dei primi teatri pubblici a pagamento, si impose il modello dell’opera <term subtype="music-term" ref="TEI-ListTerm.xml#impresario">impresariale</term>, che produsse in Italia, con la rapida e diffusa circolazione di cantanti, compositori, scenografi, l’attività di una miriade di sale teatrali sparse sul territorio (dalle grandi capitali dotate di numerosi palcoscenici ai piccoli centri) e una produzione sterminata di nuovi lavori (nel XVIII secolo e nella prima metà del XIX secolo i compositori arrivavano a scrivere tre o quattro novità all’anno). Tale modello si diffuse ben presto in Europa, imponendo nel Settecento – nelle tre declinazioni dell’<term subtype="music-term" ref="TEI-ListTerm.xml#opera_seria">opera seria</term>, dell’<term subtype="music-term">opera buffa</term> e poi dell’<term subtype="music-term">opera semiseria</term> – il predominio italiano che perdura ancor oggi nei cartelloni dei teatri di tutto il mondo.<gap reason="editorial"/>
+                        </gloss>
+                    </item>  
+                    <!-- RECITATIVO --> 
+                    <item xml:id="recitativo">    
+                    <label>
+                        <term subtype="music-term" xml:lang="it"  key="">Recitativo</term>
+                    </label>                    
+                        <gloss xml:lang="it" target="#recitativo" source="TEI-ListBibl.xml#DellaSeta2010">
+                        Stile di <term subtype="music-term">canto</term> che imita i modi della recitazione parlata. Presente da sempre in tutte le culture e in tutte le epoche <gap reason="editorial"/>. Nel primo Ottocento furono ancora modelli francesi a imporre l'impiego del recitativo strumentato nell'<term subtype="music-term" ref="TEI-ListTerm.xml#opera_seria">opera seria</term> italiana, in particolare a Napoli; tale pratica, qui accolta da Rossini, si diffuse sul suo esempio fino a diventare esclusiva, mentre il recitativo semplice sopravvisse a lungo nell'<term subtype="music-term">opera buffa</term>. Nel corso dell'Ottocento la distinzione tra recitativo e cantabile si andò attenuando, in quanto il primo fu sempre meno usato come connettivo tra i diversi <term subtype="music-term">numeri</term> e fu incorporato in essi (v. <term subtype="music-term" ref="TEI-ListTerm.xml#scena">scena[4]</term>); compositori quali Bellini, Donizzetti e Verdi fecero spesso uso di ampie frasi in stile di <term subtype="music-term" ref="TEI-ListTerm.xml#arioso">arioso</term>, che consentivano di passare più gradualmente dal recitativo al <term subtype="music-term">cantabile</term>. Il processo continuò fino alla fine del secolo, quando la distinzione può considerarsi scomparsa. <gap reason="editorial"/>
+                        </gloss>
+                    </item>
+                    <!--PER SALONE-->
+                    <item xml:id="per_salone">    
+                    <label>
+                        <term subtype="music-term" xml:lang="it"  key="">Per Salone</term>
+                    </label>                    
+                        <gloss xml:lang="it" target="#per_salone">
+                            Glossa da procurare
+                        </gloss>
+                    </item>
+                </list>
+            </sourceDesc>
+		</fileDesc>
+
+        <encodingDesc>
+            <projectDesc>
+				<p>La codifica di questa lettera è stata realizzata per l'esame di Codifica di testi, del corso di laurea in Informatica Umanistica, per l'a.a. 2019/2020.</p>
+			</projectDesc>
+            <editorialDecl>
+				<normalization>
+					<p>Per le espressioni ritenute non standard, si è scelto di riportarle sia nella loro forma originale sia di regolarizzarle mediante l'elemento &#60;reg&#62; contenuto nell'elemento &#60;choice&#62;.
+                    Lo stesso vale per le abbreviazioni, la cui forma sciolta è stata riportata all'interno dell'elemento &#60;expan&#62; contenuto nell'elemento &#60;choice&#62;.</p>
+				</normalization>
+			</editorialDecl>
+        </encodingDesc>
+
+		<profileDesc>
+            <correspDesc>
+				<correspAction type="sent">
+					<persName ref="#VB" role="composer">Vincenzo Bellini</persName>
+					<placeName ref="#Paris">Parigi</placeName>
+					<date when="1835-05-18">18 maggio 1835</date>
+				</correspAction>
+				<correspAction type="received">
+					<persName ref="#VF">Vincenzo Ferlito</persName>
+					<placeName ref="#CT">Catania</placeName>
+					<date>unknow</date>			
+				</correspAction >
+				<correspContext>
+					<p>Non è presente un contesto di riferimento</p>
+				</correspContext>
+			</correspDesc>
+
+			<textClass>
+				<keywords scheme="http://thes.bncf.firenze.sbn.it">			
+					<term resp="#GS">Lettera</term>
+				</keywords>
+			</textClass>
+			<langUsage>
+				<language ident="it">Italiano di inizio Ottocento</language>
+				<language ident="fr">Francese</language>
+			</langUsage>
+		</profileDesc>
+	</teiHeader>
+
+    <facsimile>
+        <surface n="1" xml:id="LL1.26_Foglio_Fronte">
+            <graphic url='LL1.26_0001.jpg' width='1645.5px' height='2446.5px' />
+            <zone ulx="297" uly="30" lrx="1532" lry="127" rendition="Line" xml:id="LL1.26_line_1fr_01" start="#LL1.26_lb_1fr_01"/>
+            <zone ulx="786" uly="99" lrx="1591" lry="174" rendition="Line" xml:id="LL1.26_line_1fr_02" start="#LL1.26_lb_1fr_02"/>
+            <zone ulx="128" uly="162" lrx="1591" lry="249" rendition="Line" xml:id="LL1.26_line_1fr_03" start="#LL1.26_lb_1fr_03"/>
+            <zone ulx="133" uly="222" lrx="1607" lry="304" rendition="Line" xml:id="LL1.26_line_1fr_04" start="#LL1.26_lb_1fr_04"/>
+            <zone ulx="121" uly="280" lrx="1612" lry="371" rendition="Line" xml:id="LL1.26_line_1fr_05" start="#LL1.26_lb_1fr_05"/>
+            <zone ulx="133" uly="342" lrx="1607" lry="429" rendition="Line" xml:id="LL1.26_line_1fr_06" start="#LL1.26_lb_1fr_06"/>
+            <zone ulx="107" uly="406" lrx="1571" lry="485" rendition="Line" xml:id="LL1.26_line_1fr_07" start="#LL1.26_lb_1fr_07"/>
+            <zone ulx="122" uly="465" lrx="1612" lry="555" rendition="Line" xml:id="LL1.26_line_1fr_08" start="#LL1.26_lb_1fr_08"/>
+            <zone ulx="122" uly="540" lrx="1612" lry="621" rendition="Line" xml:id="LL1.26_line_1fr_09" start="#LL1.26_lb_1fr_09"/>
+            <zone ulx="110" uly="605" lrx="1612" lry="685" rendition="Line" xml:id="LL1.26_line_1fr_10" start="#LL1.26_lb_1fr_10"/>
+            <zone ulx="117" uly="655" lrx="1585" lry="740" rendition="Line" xml:id="LL1.26_line_1fr_11" start="#LL1.26_lb_1fr_11"/>
+            <zone ulx="120" uly="717" lrx="1615" lry="791" rendition="Line" xml:id="LL1.26_line_1fr_12" start="#LL1.26_lb_1fr_12"/>
+            <zone ulx="126" uly="776" lrx="1615" lry="846" rendition="Line" xml:id="LL1.26_line_1fr_13" start="#LL1.26_lb_1fr_13"/>
+            <zone ulx="128" uly="834" lrx="1613" lry="925" rendition="Line" xml:id="LL1.26_line_1fr_14" start="#LL1.26_lb_1fr_14"/>
+            <zone ulx="132" uly="896" lrx="1612" lry="974" rendition="Line" xml:id="LL1.26_line_1fr_15" start="#LL1.26_lb_1fr_15"/>
+            <zone ulx="148" uly="969" lrx="1606" lry="1039" rendition="Line" xml:id="LL1.26_line_1fr_16" start="#LL1.26_lb_1fr_16"/>
+            <zone ulx="156" uly="1026" lrx="1610" lry="1100" rendition="Line" xml:id="LL1.26_line_1fr_17" start="#LL1.26_lb_1fr_17"/>
+            <zone ulx="160" uly="1092" lrx="1563" lry="1161" rendition="Line" xml:id="LL1.26_line_1fr_18" start="#LL1.26_lb_1fr_18"/>
+            <zone ulx="156" uly="1154" lrx="1607" lry="1247" rendition="Line" xml:id="LL1.26_line_1fr_19" start="#LL1.26_lb_1fr_19"/>
+            <zone ulx="157" uly="1217" lrx="1608" lry="1309" rendition="Line" xml:id="LL1.26_line_1fr_20" start="#LL1.26_lb_1fr_20"/>
+            <zone ulx="171" uly="1280" lrx="1603" lry="1369" rendition="Line" xml:id="LL1.26_line_1fr_21" start="#LL1.26_lb_1fr_21"/>
+            <zone ulx="166" uly="1352" lrx="1597" lry="1436" rendition="Line" xml:id="LL1.26_line_1fr_22" start="#LL1.26_lb_1fr_22"/>
+            <zone ulx="156" uly="1429" lrx="1591" lry="1500" rendition="Line" xml:id="LL1.26_line_1fr_23" start="#LL1.26_lb_1fr_23"/>
+            <zone ulx="156" uly="1487" lrx="1582" lry="1566" rendition="Line" xml:id="LL1.26_line_1fr_24" start="#LL1.26_lb_1fr_24"/>
+            <zone ulx="165" uly="1551" lrx="1588" lry="1646" rendition="Line" xml:id="LL1.26_line_1fr_25" start="#LL1.26_lb_1fr_25"/>
+            <zone ulx="178" uly="1640" lrx="1606" lry="1724" rendition="Line" xml:id="LL1.26_line_1fr_26" start="#LL1.26_lb_1fr_26"/>
+            <zone ulx="175" uly="1700" lrx="1618" lry="1795" rendition="Line" xml:id="LL1.26_line_1fr_27" start="#LL1.26_lb_1fr_27"/>
+            <zone ulx="191" uly="1779" lrx="1621" lry="1865" rendition="Line" xml:id="LL1.26_line_1fr_28" start="#LL1.26_lb_1fr_28"/>
+            <zone ulx="180" uly="1835" lrx="1627" lry="1944" rendition="Line" xml:id="LL1.26_line_1fr_29" start="#LL1.26_lb_1fr_29"/>
+            <zone ulx="196" uly="1911" lrx="1623" lry="2009" rendition="Line" xml:id="LL1.26_line_1fr_30" start="#LL1.26_lb_1fr_30"/>
+            <zone ulx="168" uly="1989" lrx="1626" lry="2062" rendition="Line" xml:id="LL1.26_line_1fr_31" start="#LL1.26_lb_1fr_31"/>
+            <zone ulx="186" uly="2057" lrx="1632" lry="2154" rendition="Line" xml:id="LL1.26_line_1fr_32" start="#LL1.26_lb_1fr_32"/>
+            <zone ulx="178" uly="2116" lrx="1621" lry="2222" rendition="Line" xml:id="LL1.26_line_1fr_33" start="#LL1.26_lb_1fr_33"/>
+            <zone ulx="183" uly="2174" lrx="1632" lry="2272" rendition="Line" xml:id="LL1.26_line_1fr_34" start="#LL1.26_lb_1fr_34"/>
+            <zone ulx="190" uly="2238" lrx="1621" lry="2313" rendition="Line" xml:id="LL1.26_line_1fr_35" start="#LL1.26_lb_1fr_35"/>
+            <zone ulx="200" uly="2303" lrx="1641" lry="2370" rendition="Line" xml:id="LL1.26_line_1fr_36" start="#LL1.26_lb_1fr_36"/>
+            <zone ulx="198" uly="2351" lrx="1626" lry="2418" rendition="Line" xml:id="LL1.26_line_1fr_37" start="#LL1.26_lb_1fr_37"/>
+        </surface>
+        <surface n="2" xml:id="LL1.26_Foglio_Retro"> 
+            <graphic url='LL1.26_0002.jpg' width='1660px' height='2446px' />
+            <zone ulx="104" uly="30" lrx="1579" lry="123" rendition="Line" xml:id="LL1.26_line_1r_01" start="#LL1.26_lb_1r_01"/>
+            <zone ulx="60" uly="107" lrx="1586" lry="188" rendition="Line" xml:id="LL1.26_line_1r_02" start="#LL1.26_lb_1r_02"/>
+            <zone ulx="79" uly="164" lrx="1578" lry="235" rendition="Line" xml:id="LL1.26_line_1r_03" start="#LL1.26_lb_1r_03"/>
+            <zone ulx="53" uly="218" lrx="1595" lry="308" rendition="Line" xml:id="LL1.26_line_1r_04" start="#LL1.26_lb_1r_04"/>
+            <zone ulx="64" uly="295" lrx="1608" lry="385" rendition="Line" xml:id="LL1.26_line_1r_05" start="#LL1.26_lb_1r_05"/>
+            <zone ulx="61" uly="355" lrx="1543" lry="442" rendition="Line" xml:id="LL1.26_line_1r_06" start="#LL1.26_lb_1r_06"/>
+            <zone ulx="68" uly="430" lrx="1615" lry="540" rendition="Line" xml:id="LL1.26_line_1r_07" start="#LL1.26_lb_1r_07"/>
+            <zone ulx="55" uly="502" lrx="1609" lry="592" rendition="Line" xml:id="LL1.26_line_1r_08" start="#LL1.26_lb_1r_08"/>
+            <zone ulx="86" uly="559" lrx="1591" lry="657" rendition="Line" xml:id="LL1.26_line_1r_09" start="#LL1.26_lb_1r_09"/>
+            <zone ulx="74" uly="629" lrx="1615" lry="748" rendition="Line" xml:id="LL1.26_line_1r_10" start="#LL1.26_lb_1r_10"/>
+            <zone ulx="116" uly="712" lrx="1616" lry="819" rendition="Line" xml:id="LL1.26_line_1r_11" start="#LL1.26_lb_1r_11"/>
+            <zone ulx="113" uly="792" lrx="1605" lry="890" rendition="Line" xml:id="LL1.26_line_1r_12" start="#LL1.26_lb_1r_12"/>
+            <zone ulx="93" uly="864" lrx="1584" lry="942" rendition="Line" xml:id="LL1.26_line_1r_13" start="#LL1.26_lb_1r_13"/>
+            <zone ulx="105" uly="929" lrx="1605" lry="1008" rendition="Line" xml:id="LL1.26_line_1r_14" start="#LL1.26_lb_1r_14"/>
+            <zone ulx="131" uly="994" lrx="1618" lry="1084" rendition="Line" xml:id="LL1.26_line_1r_15" start="#LL1.26_lb_1r_15"/>
+            <zone ulx="118" uly="1068" lrx="1618" lry="1160" rendition="Line" xml:id="LL1.26_line_1r_16" start="#LL1.26_lb_1r_16"/>
+            <zone ulx="130" uly="1142" lrx="1586" lry="1217" rendition="Line" xml:id="LL1.26_line_1r_17" start="#LL1.26_lb_1r_17"/>
+            <zone ulx="135" uly="1218" lrx="1611" lry="1333" rendition="Line" xml:id="LL1.26_line_1r_18" start="#LL1.26_lb_1r_18"/>
+            <zone ulx="144" uly="1298" lrx="1564" lry="1393" rendition="Line" xml:id="LL1.26_line_1r_19" start="#LL1.26_lb_1r_19"/>
+            <zone ulx="148" uly="1380" lrx="1610" lry="1449" rendition="Line" xml:id="LL1.26_line_1r_20" start="#LL1.26_lb_1r_20"/>
+            <zone ulx="140" uly="1460" lrx="1616" lry="1539" rendition="Line" xml:id="LL1.26_line_1r_21" start="#LL1.26_lb_1r_21"/>
+            <zone ulx="130" uly="1524" lrx="1616" lry="1633" rendition="Line" xml:id="LL1.26_line_1r_22" start="#LL1.26_lb_1r_22"/>
+            <zone ulx="123" uly="1604" lrx="1615" lry="1697" rendition="Line" xml:id="LL1.26_line_1r_23" start="#LL1.26_lb_1r_23"/>
+            <zone ulx="133" uly="1662" lrx="1566" lry="1760" rendition="Line" xml:id="LL1.26_line_1r_24" start="#LL1.26_lb_1r_24"/>
+            <zone ulx="146" uly="1748" lrx="1618" lry="1822" rendition="Line" xml:id="LL1.26_line_1r_25" start="#LL1.26_lb_1r_25"/>
+            <zone ulx="126" uly="1807" lrx="1615" lry="1889" rendition="Line" xml:id="LL1.26_line_1r_26" start="#LL1.26_lb_1r_26"/>
+            <zone ulx="120" uly="1858" lrx="1639" lry="1949" rendition="Line" xml:id="LL1.26_line_1r_27" start="#LL1.26_lb_1r_27"/>
+            <zone ulx="127" uly="1914" lrx="1613" lry="2002" rendition="Line" xml:id="LL1.26_line_1r_28" start="#LL1.26_lb_1r_28"/>
+            <zone ulx="125" uly="1979" lrx="1640" lry="2089" rendition="Line" xml:id="LL1.26_line_1r_29" start="#LL1.26_lb_1r_29"/>
+            <zone ulx="127" uly="2052" lrx="1598" lry="2158" rendition="Line" xml:id="LL1.26_line_1r_30" start="#LL1.26_lb_1r_30"/>
+            <zone ulx="143" uly="2135" lrx="1644" lry="2232" rendition="Line" xml:id="LL1.26_line_1r_31" start="#LL1.26_lb_1r_31"/>
+            <zone ulx="114" uly="2180" lrx="1088" lry="2274" rendition="Line" xml:id="LL1.26_line_1r_32" start="#LL1.26_lb_1r_32"/>
+            <zone ulx="990" uly="2254" lrx="1643" lry="2354" rendition="Line" xml:id="LL1.26_line_1r_33" start="#LL1.26_lb_1r_33"/>
+            <zone ulx="1093" uly="2327" lrx="1407" lry="2409" rendition="Line" xml:id="LL1.26_line_1r_34" start="#LL1.26_lb_1r_34"/>
+            <!--Annotazione di seconda mano a matita blu-->
+            <zone ulx="955" uly="387" lrx="1138" lry="788" rendition="HotSpot" xml:id="LL1.26_hotspot_1r_01" start="#LL1.26_hs_1r_01" />
+        </surface>
+    </facsimile>     
+
+    <text type="letter" xml:id="LL1.26" subtype="manuscript" n="LL1.26"> 
+        <body xml:lang="it">
+            <div type="fronte-retro">
+                <!-- fronte del folio -->
+                <pb n="1" xml:id="LL1.26_foglio_1fr" facs="#LL1.26_Foglio_Fronte"/>
+                <!-- apertura, formula introduttiva -->
+                <opener n="o_01">
+					<dateline n="ab_01">
+                        <hi rend="align(right)">
+  					        <s type="sentence" n="s_01">
+						        <lb xml:id="LL1.26_lb_1fr_01" n="1" facs="#LL1.26_line_1fr_01"/>
+						        <date when="05-18">18<pc type="colon"> : </pc>Maggio</date> - rampe de pont
+						        <address>
+							        <addrLine n="1">
+								        de <placeName ref="#NSS">Neuilly</placeName> N<pc type="colon">:</pc>° 19<pc type="colon">:</pc> bis
+							        </addrLine>
+							        <lb xml:id="LL1.26_lb_1fr_02" n="2" facs="#LL1.26_line_1fr_02"/>
+							        <addrLine n="2">
+								        pres de 
+									    <placeName ref="#Paris">Paris</placeName> à 
+                                        <placeName ref="#Put"><hi rend="underline">Puteaux</hi></placeName>
+							        </addrLine>
+						        </address>
+					        </s>
+                        </hi>
+					</dateline>
+				</opener>
+
+                <div type="letter_body" n="t_01">
+                    <salute  n="ab_02">
+						<s type="sentence" n="s_02">
+							<lb xml:id="LL1.26_lb_1fr_03" n="3" facs="#LL1.26_line_1fr_03"/>
+							<hi rend="align(left)">
+								Mio caro <persName ref="#VF">Zio <supplied resp="#GS" cert="high">Vincenzo Ferlito</supplied></persName><pc type="tratto" force="strong"> - </pc>
+							</hi>
+						</s>
+					</salute>	
+                    
+                    <ab type="paragraph" n="ab_03">
+                        <s type="sentence" n="s_03">
+                            Eccomi in campagna per applicarmi 
+                            <lb xml:id="LL1.26_lb_1fr_04" n="4" facs="#LL1.26_line_1fr_04"/>
+                            e dar <w><damage agent="hole">tr</damage>egua</w> ai divertimenti parigini che sono da stancare
+                            <lb xml:id="LL1.26_lb_1fr_05" n="5" facs="#LL1.26_line_1fr_05"/>
+                            un Ercole<pc type="dot">.</pc> –
+                        </s>
+                        <s type="sentence" n="s_04">
+                            Aspetto di giorno in giorno che il <roleName ref="#Ministro">Ministro</roleName><ptr target="#LL1_26_note_1" n="1"/> si 
+                            <w lemma="decida">de
+                                <lb xml:id="LL1.26_lb_1fr_06" n="6" facs="#LL1.26_line_1fr_06" break="no" rend="double_stroke"/>
+                                cida
+                            </w> 
+                            <distinct type="archaic">pel</distinct> nuovo <roleName ref="#LDV">Direttore <supplied resp="#GS" cert="high">Louis-Désiré Véron</supplied></roleName> dell<pc type="apostrophe">'</pc><orgName type="theatre" ref="#Opera"><hi rend="underline">Operà</hi></orgName> per io finire <damage agent="hole">la</damage>
+                            <w lemma="scrittura">scrit
+                                <lb xml:id="LL1.26_lb_1fr_07" n="7" facs="#LL1.26_line_1fr_07" break="no" rend="double_stroke"/>
+                                tura
+                            </w>
+                            <ptr target="#LL1_26_note_2" n="2"/><pc type="dot">.</pc><pc type="tratto" force="strong"> - </pc>
+                        </s>
+                        <s type="sentence" n="s_05">
+                            Mai fui ammalato<pc type="dot">.</pc>
+                        </s>
+                        <s type="sentence" n="s_06">
+                            La <distinct type="archaic">fattiga</distinct> di scrivere
+                            <lb xml:id="LL1.26_lb_1fr_08" n="8" facs="#LL1.26_line_1fr_08"/>
+                            l<pc type="apostrophe">'</pc><term subtype="music-term" ref="#opera">opera</term> mi <choice><orig>avea</orig><reg>aveva</reg></choice> reso debole<pc type="semicolon">;</pc> il contento sopravenuto
+                            <lb xml:id="LL1.26_lb_1fr_09" n="9" facs="#LL1.26_line_1fr_09"/>
+                            dell<pc type="apostrophe">'</pc>esito inaspettato mi scosse in modo che non 
+                            <choice><orig>
+                                <w lemma="potea">po
+                                    <lb xml:id="LL1.26_lb_1fr_10" n="10" facs="#LL1.26_line_1fr_10" break="no" rend="double_stroke"/>
+                                    tea
+                                </w>
+                            </orig><reg>potevo</reg></choice>
+                            tenere la penna in mano<pc type="comma">,</pc> perch&#233; i miei nervi 
+                            <lb xml:id="LL1.26_lb_1fr_11" n="11" facs="#LL1.26_line_1fr_11"/>
+                            <choice><sic>era</sic><corr resp="#CG">erano</corr></choice> estremamente affettati<pc type="dot">.</pc> 
+                        </s>
+                        <s type="sentence" n="s_07">
+                            Il successo dei <rs type="work" ref="#Puritani"><hi rend="underline">Puritani</hi></rs>
+                            <lb xml:id="LL1.26_lb_1fr_12" n="12" facs="#LL1.26_line_1fr_12"/>
+                            &#232; sempre <w>cre<damage agent="hole">sc</damage>iuto</w> nei <w><damage agent="hole">sa</damage>loni</w> tutti<pc type="colon" force="strong">:</pc> l<pc type="apostrophe">'</pc>effetto anche
+                            <lb xml:id="LL1.26_lb_1fr_13" n="13" facs="#LL1.26_line_1fr_13"/>
+                            in cammera <damage agent="hole"><unclear reason="illegible">&#232;</unclear></damage> meraviglioso<pc type="semicolon">;</pc> ma ci vogliono buoni 
+                            <w lemma="dilettanti">dilettan
+                                <lb xml:id="LL1.26_lb_1fr_14" n="14" facs="#LL1.26_line_1fr_14" break="no" rend="double_stroke"/>
+                                ti
+                            </w>
+                            <pc type="dot">.</pc>
+                        </s>
+                        <s type="sentence" n="s_08">
+                            Il <term subtype="music-term" ref="#libretto">libro</term> ha il gran difetto che non &#232; bene 
+                            <w lemma="dialogato">dialo
+                                <lb xml:id="LL1.26_lb_1fr_15" n="15" facs="#LL1.26_line_1fr_15" break="no" rend="double_stroke"/>
+                                gato
+                            </w>
+                            <pc type="colon" force="strong">:</pc> le situazioni sono belle<pc type="comma">,</pc> l<pc type="apostrophe">'</pc>espressioni ripetute<pc type="comma">,</pc>
+                            <lb xml:id="LL1.26_lb_1fr_16" n="16" facs="#LL1.26_line_1fr_16"/>
+                            comuni<pc type="comma">,</pc> stupide qualche volta<pc type="comma">,</pc> in una parola si
+                            <lb xml:id="LL1.26_lb_1fr_17" n="17" facs="#LL1.26_line_1fr_17"/>
+                            vede che chi l<pc type="apostrophe">'</pc>ha scritto<ptr target="#LL1_26_note_3" n="3"/> non <choice><orig>avea</orig><reg>aveva</reg></choice> n&#233; cuore<pc type="comma">,</pc> n&#233;
+                            <lb xml:id="LL1.26_lb_1fr_18" n="18" facs="#LL1.26_line_1fr_18"/>
+                            cognizioni per <w>b<damage agent="hole">e</damage>ne</w> esprimere i <w>sentim<damage agent="hole">en</damage>ti</w> dei
+                            <lb xml:id="LL1.26_lb_1fr_19" n="19" facs="#LL1.26_line_1fr_19"/>
+                            <w>s<damage agent="hole">uo</damage>i</w> personaggi<pc type="colon" force="strong">:</pc> questo difetto nulla tolse all<pc type="apostrophe">'</pc>esito <unclear reason="illegible">di</unclear>
+                            <lb xml:id="LL1.26_lb_1fr_20" n="20" facs="#LL1.26_line_1fr_20"/>
+                            <placeName ref="#Paris"><damage agent="hole">P</damage>arigi</placeName> perch&#233; qui le parole non le <w>c<damage agent="hole">a</damage>piscono</w><pc type="semicolon">;</pc> ma
+                            <lb xml:id="LL1.26_lb_1fr_21" n="21" facs="#LL1.26_line_1fr_21"/>
+                            toglier&#224; molto all<pc type="apostrophe">'</pc>effetto sui teatri d<pc type="apostrophe">'</pc>Italia<pc type="colon" force="strong">:</pc> ma
+                            <lb xml:id="LL1.26_lb_1fr_22" n="22" facs="#LL1.26_line_1fr_22"/>
+                            se la musica sar&#224; bene eseguita<pc type="comma">,</pc> terr&#224; loco e 
+                            <lb xml:id="LL1.26_lb_1fr_23" n="23" facs="#LL1.26_line_1fr_23"/>
+                            come canto<pc type="comma">,</pc> e come strumentazione a tale
+                            <lb xml:id="LL1.26_lb_1fr_24" n="24" facs="#LL1.26_line_1fr_24"/>
+                            lacuna<pc type="dot">.</pc><pc type="tratto" force="strong"> -</pc>
+                        </s>
+                    </ab>
+                    <ab type="paragraph" n="ab_04">
+                        <s type="sentence" n="s_09">
+                            Qui si <damage agent="hole">trova</damage> il <roleName ref="#MPC">duca di Carcaci <supplied resp="#GS" cert="high">Mario Patern&#242; Castello</supplied></roleName><ptr target="#LL1_26_note_4" n="4"/> e 
+                            <lb xml:id="LL1.26_lb_1fr_25" n="25" facs="#LL1.26_line_1fr_25"/>
+                            <persName ref="#GPC">Giovannino <w>Pate<damage agent="hole">rn</damage>&#242;</w> <supplied resp="#GS" cert="high">Castello</supplied></persName> suo zio<ptr target="#LL1_26_note_5" n="5"/> <pc type="tratto" force="strong">-</pc>
+                        </s>
+                        <s type="sentence" n="s_10">
+                            Noi siamo stati <unclear reason="faded">e</unclear> siamo
+                            <lb xml:id="LL1.26_lb_1fr_26" n="26" facs="#LL1.26_line_1fr_26"/>
+                            sempre insieme<pc type="colon" force="strong">:</pc> ci divertiamo<pc type="comma">,</pc> perch&#233; sono 
+                            <w lemma="bravissimi">bravissi
+                                <lb xml:id="LL1.26_lb_1fr_27" n="27" facs="#LL1.26_line_1fr_27" break="no" rend="double_stroke"/>
+                                mi
+                            </w>
+                            giovani<pc type="comma">,</pc> cari e buoni<pc type="colon" force="strong">:</pc> ci amiamo assaissimo<pc type="comma">,</pc>
+                            <lb xml:id="LL1.26_lb_1fr_28" n="28" facs="#LL1.26_line_1fr_28"/>
+                            e mi spiace che fra tre o quattro giorni vanno a 
+                            <lb xml:id="LL1.26_lb_1fr_29" n="29" facs="#LL1.26_line_1fr_29"/>
+                            <placeName ref="#London">Londra</placeName> e ci dobbiamo abbandonare<pc type="dot">.</pc>
+                        </s>
+                        <s type="sentence" n="s_11">
+                            Il <roleName ref="#MPC">Duca</roleName> mi 
+                            <w lemma="diede">die
+                                <lb xml:id="LL1.26_lb_1fr_30" n="30" facs="#LL1.26_line_1fr_30" break="no" rend="double_stroke"/>
+                                de
+                            </w>
+                            novelle di <persName ref="#FPC"><choice><abbr type="superscription">D<pc type="colon" force="weak"><am>:</am></pc><hi rend="sup">n</hi></abbr><expan>Don</expan></choice> Ciccio <supplied resp="#GS" cert="high">Francesco Patern&#242; Castello</supplied></persName> suo zio <pc type="comma">,</pc> che l<pc type="apostrophe">'</pc>
+                            <w lemma="incombenza">incomben
+                                <lb xml:id="LL1.26_lb_1fr_31" n="31" facs="#LL1.26_line_1fr_31" break="no" rend="double_stroke"/>
+                                za
+                            </w>
+                            di salutarmi<pc type="colon" force="strong">:</pc> voi <w><damage>fa</damage>temi</w> il piacere d<pc type="apostrophe">'</pc>andarlo
+                            <lb xml:id="LL1.26_lb_1fr_32" n="32" facs="#LL1.26_line_1fr_32"/>
+                            a trovare ed esprimergli quanto io sono 
+                            <w lemma="commosso">commos
+                                <lb xml:id="LL1.26_lb_1fr_33" n="33" facs="#LL1.26_line_1fr_33" break="no" rend="double_stroke"/>
+                                so
+                            </w>
+                            della sua memoria<pc type="comma">,</pc> e dirgli che mi spiace 
+                            <w lemma="sentire">sen
+                                <lb xml:id="LL1.26_lb_1fr_34" n="34" facs="#LL1.26_line_1fr_34" break="no" rend="double_stroke"/>
+                                tire
+                            </w>
+                            che <add place="supralinear">ha</add> abbandonato la musica<pc type="comma">,</pc> e che lo prego di non
+                            <lb xml:id="LL1.26_lb_1fr_35" n="35" facs="#LL1.26_line_1fr_35"/>
+                            <damage>negarmi</damage> il piacere di sapere <damage agent="hole">che</damage> i miei <rs resp="#GS" type="work" ref="#Puritani">Puritani</rs>
+                            <lb xml:id="LL1.26_lb_1fr_36" n="36" facs="#LL1.26_line_1fr_36"/>
+                            restino a lui sconosciuti<pc type="semicolon">;</pc> <damage agent="hole"><unclear>ma per</unclear></damage> <w>giudica<damage agent="hole">rli</damage></w> aspetti 
+                            <lb xml:id="LL1.26_lb_1fr_37" n="37" facs="#LL1.26_line_1fr_37"/>
+                            che l<pc type="apostrophe">'</pc><term subtype="music-term" ref="#opera">opera</term> sii <damage agent="hole"><gap reason="missing" agent="hole"/><unclear reason="illegible"> tutta completa perch&#233; i</unclear></damage>
+                            <!-- inizio retro folio -->
+                            <pb n="2" xml:id="LL1.26_foglio_1r" facs="#LL1.26_Foglio_Retro"/>
+                            <lb xml:id="LL1.26_lb_1r_01" n="1" facs="#LL1.26_line_1r_01"/>
+                            <w><damage agent="hole"><unclear reason="illegible">p</unclear></damage>ezzi</w> che sin<pc type="apostrophe">'</pc>ora sono alla luce<pc type="comma">,</pc> sono brani di pezzi<pc type="comma">,</pc> e 
+                            <lb xml:id="LL1.26_lb_1r_02" n="2" facs="#LL1.26_line_1r_02"/>
+                            <w><damage agent="hole"><unclear reason="illegible">sen</unclear></damage>za</w> ordine senza <term subtype="music-term" ref="#coro">cori</term><pc type="comma">,</pc> senza <term subtype="music-term" ref="#recitativo">recitativi</term><pc type="comma">,</pc> accorciati qu&#224;
+                            <lb xml:id="LL1.26_lb_1r_03" n="3" facs="#LL1.26_line_1r_03"/>
+                            e l&#224;<pc type="semicolon">;</pc> in una parola<pc type="comma">,</pc> a <placeName ref="#Paris"><hi rend="underline">parigi</hi></placeName> stampano da prima i 
+                            <lb xml:id="LL1.26_lb_1r_04" n="4" facs="#LL1.26_line_1r_04"/>
+                            pezzi chiamati <term subtype="music-term" ref="#per_salone"><hi rend="underline">per salone</hi></term><pc type="comma">,</pc> e quindi non 
+                            <subst>
+                                <del rend="overstrike"><unclear reason="cancelled" resp="#CG" cert="low">sono</unclear></del>
+                                <add place="supralinear">consistono</add>
+                            </subst> che <add place="supralinear">in</add>
+                            <w lemma="qualche">qual
+                                 <lb xml:id="LL1.26_lb_1r_05" n="5" facs="#LL1.26_line_1r_05" break="no" rend="double_stroke"/>
+                                che
+                            </w>
+                            cantilena principale<pc type="semicolon">;</pc> quindi impossibile di 
+                            <w lemma="capirne">capir
+                                <lb xml:id="LL1.26_lb_1r_06" n="6" facs="#LL1.26_line_1r_06" break="no" rend="double_stroke"/>
+                                ne
+                            </w>
+                            il senso e darne giudizio <pc type="tratto" force="strong">-</pc> fra pochi 
+                            <lb xml:id="LL1.26_lb_1r_07" n="7" facs="#LL1.26_line_1r_07"/>
+                            mesi l<pc type="apostrophe">'</pc><term subtype="music-term" ref="#opera">opera</term> sortir&#224; intera ed allora i buoni 
+                            <w lemma="dilettanti">dilettan
+                                <lb xml:id="LL1.26_lb_1r_08" n="8" facs="#LL1.26_line_1r_08" break="no" rend="double_stroke"/>
+                                ti
+                            </w>
+                            ne potranno vedere le cose cattive e le buone<pc type="dot">.</pc>
+                        </s>
+                    </ab>
+                    <ab type="paragraph" n="ab_05">
+                        <s type="sentence" n="s_12">
+                            <lb xml:id="LL1.26_lb_1r_09" n="9" facs="#LL1.26_line_1r_09"/>
+                            Non mancate anche di salutarmi la <persName>Duchessa di
+                                <lb xml:id="LL1.26_lb_1r_10" n="10" facs="#LL1.26_line_1r_10"/>
+                            Carcaci<pc type="comma">, </pc><choice><abbr type="superscription">D<pc type="colon" force="weak"><am>:</am></pc><hi rend="sup">na</hi></abbr><expan>Donna</expan></choice> Mara <supplied resp="#GS" cert="high">Maria Scammacca</supplied></persName><ptr target="#LL1_26_note_6" n="6"/><pc type="comma">,</pc> e tutto il resto della <persName>famiglia</persName><pc type="dot">.</pc>
+                        </s>
+                        <s type="sentence" n="s_13">
+                            <lb xml:id="LL1.26_lb_1r_11" n="11" facs="#LL1.26_line_1r_11"/>
+                            <persName ref="#FFlo" role="composer"><supplied resp="#GS" cert="high">Francesco</supplied> Florimo</persName> ha fatto bene rimettervi tutti <damage agent="hole">gli</damage> articoli francesi<pc type="semicolon">;</pc> 
+                            <lb xml:id="LL1.26_lb_1r_12" n="12" facs="#LL1.26_line_1r_12"/>
+                            di gi&#224; &#232; suo sistema<pc type="semicolon">;</pc> e poi io ne l<pc type="apostrophe">'</pc><choice><orig>avea</orig><reg>avevo</reg></choice> pregato<pc type="semicolon">;</pc>
+                            <lb xml:id="LL1.26_lb_1r_13" n="13" facs="#LL1.26_line_1r_13"/>
+                            come pure vi ha dovuto rimettere tutti i giornali di
+                            <lb xml:id="LL1.26_lb_1r_14" n="14" facs="#LL1.26_line_1r_14"/>
+                            <placeName ref="#NA">Napoli</placeName> che ne hanno parlato<pc type="dot">.</pc><pc type="tratto" force="strong"> -</pc>
+                        </s>
+                        <s type="sentence" n="s_14">
+                            Ringraziatemi <persName ref="#IGM"><choice><abbr type="superscription">D<pc type="colon" force="weak"><am>:</am></pc><hi rend="sup">n</hi></abbr><expan resp="#GS">D<ex>on</ex></expan></choice>
+                                <lb xml:id="LL1.26_lb_1r_15" n="15" facs="#LL1.26_line_1r_15"/> 
+                            Ignazio <supplied resp="#GS" cert="high">Giuffrida Moschetti</supplied></persName> per gli bei bottoncini che mi ha inviato<pc type="comma">,</pc>
+                            <lb xml:id="LL1.26_lb_1r_16" n="16" facs="#LL1.26_line_1r_16"/>
+                            e che spero ricevere fra poco<pc type="dot">.</pc> 
+                        </s>
+                        <s type="sentence" n="s_15">
+                            Ringraziatemi anche 
+                            <lb xml:id="LL1.26_lb_1r_17" n="17" facs="#LL1.26_line_1r_17"/>
+                            estremamente <persName ref="#AGP"><choice><abbr type="superscription">D<pc type="colon" force="weak"><am>:</am></pc><hi rend="sup">na</hi></abbr><expan>D<ex>on</ex>na</expan></choice> Lidda <supplied resp="#GS" cert="high">Angelica Paola Giuffrida</supplied></persName><ptr target="#LL1_26_note_7" n="7"/> per la vedutina dell<pc type="apostrophe">'</pc>
+                            <lb xml:id="LL1.26_lb_1r_18" n="18" facs="#LL1.26_line_1r_18"/>
+                            <placeName ref="#Etna">Etna</placeName> che di gi&#224; ho qui<pc type="comma">,</pc> <damage>e</damage> che tante deliziose
+                            <lb xml:id="LL1.26_lb_1r_19" n="19" facs="#LL1.26_line_1r_19"/>
+                            idee mi ridona<pc type="semicolon">;</pc> dite ad ambidue che con altra 
+                            <lb xml:id="LL1.26_lb_1r_20" n="20" facs="#LL1.26_line_1r_20"/>
+                            posta io stesso gli scriver&#242; <pc type="tratto" force="strong">-</pc> Veramente mi devono
+                            <lb xml:id="LL1.26_lb_1r_21" n="21" facs="#LL1.26_line_1r_21"/>
+                            essi qualche rigo<pc type="comma">,</pc> perch&#233; io gli ho scritto due 
+                            <lb xml:id="LL1.26_lb_1r_22" n="22" facs="#LL1.26_line_1r_22"/>
+                            volte e non mi risposero <pc type="tratto" force="strong">-</pc> Preparatevi dunque per 
+                            <lb xml:id="LL1.26_lb_1r_23" n="23" facs="#LL1.26_line_1r_23"/>
+                            venir <distinct type="archaic">meco</distinct> a <placeName ref="#Paris">Parigi</placeName><pc type="colon" force="strong">:</pc> perch&#233; io se incontrer&#242; con
+                            <lb xml:id="LL1.26_lb_1r_24" n="24" facs="#LL1.26_line_1r_24"/>
+                            l<pc type="apostrophe">'</pc><term subtype="music-term" ref="#opera">opera</term> francese<pc type="comma">,</pc> verr&#242; a <placeName ref="#CT">Catania</placeName><pc type="comma">,</pc> e poi voi 
+                            <lb xml:id="LL1.26_lb_1r_25" n="25" facs="#LL1.26_line_1r_25"/>
+                            ritornerete con me<pc type="comma">,</pc> in uno alla <persName ref="#RM">zia Sara <supplied resp="#GS" cert="high">Rosaria Maugeri</supplied></persName><pc type="comma">,</pc> per vedere
+                            <lb xml:id="LL1.26_lb_1r_26" n="26" facs="#LL1.26_line_1r_26"/>
+                            tutta Italia<pc type="comma">,</pc> la francia e l<pc type="apostrophe">'</pc>inghilterra<pc type="dot">.</pc><pc type="tratto" force="strong"> -</pc> 
+                        </s>
+                        <s type="sentence" n="s_16">
+                            Tante cose 
+                            <lb xml:id="LL1.26_lb_1r_27" n="27" facs="#LL1.26_line_1r_27"/>
+                            affettuose <choice><sic>&#224;</sic><corr>a</corr></choice> <persName ref="#RB">pap&#224;</persName> e <persName ref="#AF">mamm&#224;</persName> ed a tutti i miei<pc type="dot">.</pc>
+                        </s>
+                        <s type="sentence" n="s_17">
+                            I miei 
+                            <lb xml:id="LL1.26_lb_1r_28" n="28" facs="#LL1.26_line_1r_28"/>
+                            <choice><abbr type="superscription">abb<pc type="colon" force="weak"><am>:</am></pc><hi rend="sup">ci</hi></abbr><expan>abb<ex resp="#CG">rac</ex>ci</expan></choice> allo zio <persName ref="#FF"><choice><abbr type="superscription">D<pc type="colon" force="weak"><am>:</am></pc><hi rend="sup">n</hi></abbr><expan>D<ex>o</ex>n</expan></choice> Ciccio <supplied resp="#GS" cert="high">Francesco Ferlito</supplied></persName> e sua famiglia tutta<pc type="comma">,</pc> i <hi rend="underline">miei</hi>
+                            <lb xml:id="LL1.26_lb_1r_29" n="29" facs="#LL1.26_line_1r_29"/>
+                            parenti ed amici<pc type="comma">,</pc> e <w><damage agent="hole">par</damage>ticolarmente</w> il <persName ref="#GAPC"><choice><abbr type="contraction">prinpe</abbr><expan>prin<ex>ci</ex>pe</expan></choice> <supplied resp="#GS" cert="high">Giuseppe Alvaro Paternò Castello</supplied></persName><ptr target="#LL1_26_note_8" n="8"/>
+                            <lb xml:id="LL1.26_lb_1r_30" n="30" facs="#LL1.26_line_1r_30"/>
+                            e <persName ref="#APC">principino Manganelli <supplied resp="#GS" cert="high">Antonino Paternò Castello</supplied></persName><pc type="comma">,</pc><ptr target="#LL1_26_note_9" n="9"/> non escluse le sue
+                            <lb xml:id="LL1.26_lb_1r_31" n="31" facs="#LL1.26_line_1r_31"/>
+                            care e belle figliuoline di <persName><choice><abbr type="superscription">S<pc type="colon" force="weak"><am>:</am></pc><hi rend="sup">n</hi></abbr><expan resp="#CG">S<ex>a</ex>n</expan></choice> Giuliano</persName><ptr target="#LL1_26_note_10" n="10"/><pc type="comma">,</pc> come il 
+                            <w lemma="Severo">Seve
+                                <lb xml:id="LL1.26_lb_1r_32" n="32" facs="#LL1.26_line_1r_32" break="no" rend="double_stroke"/>
+                                ro
+                            </w>
+                            Senato d<pc type="apostrophe">'</pc>Atene<pc type="dot">.</pc><pc type="tratto" force="strong"> - </pc>
+                        </s>
+                    </ab>      
+                </div>            
+                <!-- formula di chiusura-->
+                <div type="closer" n="c_01">
+                    <salute n="ab_06">
+                        <s type="sentence" n="s_18">
+                            <lb xml:id="LL1.26_lb_1r_33" n="33" facs="#LL1.26_line_1r_33"/>
+                            <hi rend="align(right)">Il <choice><abbr type="contraction">vro</abbr><expan>v<ex>ost</ex>ro</expan></choice> <choice><abbr type="contraction"> affsmo</abbr><expan>aff<ex resp="#CG">ezionatissimo</ex></expan></choice> <choice><abbr type="superscription">Nip<pc type="colon" force="weak"><am>:</am></pc><hi rend="sup">te</hi></abbr><expan>Nip<ex>o</ex>te</expan></choice></hi>
+                        </s>
+                    </salute>
+                    <signed>
+                        <s type="sentence" n="s_18">
+                            <lb xml:id="LL1.26_lb_1r_34" n="34" facs="#LL1.26_line_1r_34"/>
+                            <hi rend="align(right)"><persName ref="#VB">Vincenzo<pc type="dot">.</pc></persName></hi>
+                        </s>
+                    </signed>
+                </div>
+
+                <div type="paratext">
+					<ab type="paratext" hand="#h2" xml:id="LL1.26_hs_1r_01" facs="#LL1.26_hotspot_1r_01">
+						<unclear reason="illegible" cert="low">CF 2 4</unclear>
+					</ab>
+				</div>
+
+            </div>
+        </body>
+
+        <back>
+            <!-- appendici del testo -->
+            <div type="notes"> 
+                <div type="ann_notes">
+
+                    <note xml:id="LL1_26_note_1" resp="#CG" n="1">
+						<p>
+						    <persName ref="#VB" role="composer">Bellini</persName> si riferiva a un Ministro non meglio specificato, del quale non abbiamo alcuna informazione.
+						</p>
+					</note>
+
+                    <note xml:id="LL1_26_note_2" resp="#GS" n="2">
+                        <p>
+                            Le trattative per la commissione di un’opera da rappresentarsi all’Académie Royale de Musique erano state avviate da <persName ref="#VB" role="composer">Bellini</persName> con <persName ref="#LDV">Louis-Désiré Véron</persName> (<placeName ref="#Paris">Parigi</placeName>, 1798 - 1867), che dal <date when="1831">1831</date> era direttore dell’<orgName ref="#Opera">Opéra</orgName>. <persName ref="#LDV">Véron</persName> tenne la carica sino al primo settembre del <date when="1835">1835</date>, quando gli subentrò <persName>Charles-Edmond Duponchel</persName> (<placeName ref="#Paris">Parigi</placeName>, 1795 - 1868).
+                        </p>
+                    </note>
+
+                    <note xml:id="LL1_26_note_3" resp="#GS" n="3">
+                        <p>
+                            <persName ref="#VB" role="composer">Bellini</persName> si riferiva al conte <persName ref="#CP" role="librettist">Carlo Pepoli</persName>, che aveva predisposto il <term subtype="music-term" ref="#libretto">libretto</term> dei <rs type="work" ref="#Puritani">Puritani</rs>. 
+                        </p>
+                    </note>
+
+                    <note xml:id="LL1_26_note_4" resp="#GS" source="#Seminara2017" ana="846" n="4">
+                        <bibl>
+                            <citedRange unit="page" from="495" to="495">495</citedRange>
+                        </bibl>
+                        <p> 
+                            <persName ref="#MPC">Mario Paternò Castello</persName> (<placeName ref="#CT">Catania</placeName>, <date when="1812">1812</date>-<placeName>Firenze</placeName>, <date when="1838">1838</date>) nel <date when="1834">1834</date> – alla morte del padre <persName>Vincenzo Emanuele</persName> – era divenuto VI duca di Carcaci. 
+                        </p>
+                    </note>
+
+                    <note xml:id="LL1_26_note_5" resp="#GS" source="#Seminara2017" ana="862" n="5">
+                        <bibl>
+                            <citedRange unit="page" from="505" to="505">505</citedRange>
+                        </bibl>
+                        <p>
+                            Con <persName ref="#MPC">Mario Paternò Castello</persName>, VI duca di Carcaci, vi era a <placeName ref="#Paris">Parigi</placeName> il giovane zio <persName ref="#GPC">Giovanni Paternò Castello</persName> (<placeName ref="#CT">Catania</placeName>, <date when="1805">1805</date> - seconda metà del secolo XIX), fratello del padre.
+                        </p>
+                    </note>
+
+                    <note xml:id="LL1_26_note_6" resp="#GS" n="6">
+                        <p>
+                            Baronessa <persName ref="#MS">Maria Scammacca</persName> (<placeName ref="#CT">Catania</placeName> <date when="1790">1790</date> – prima metà del XIX secolo), figlia di Guglielmo, Barone della Bruca e di Crisciunà, e di Giovanna Arezzo dei Baroni di Donnafugata. Nel <date when="1806">1806</date> aveva sposato Vincenzo Emanuele Giovanni Paternò Castello (1783 - 1834), V Duca di Carcaci, dal quale ebbe quattro figli tra cui <persName ref="#MPC">Mario</persName>, destinato a diventare il VI Duca di Carcaci.
+                        </p>
+                    </note>
+
+                    <note xml:id="LL1_26_note_7" resp="#GS" source="#Seminara2017" ana="440" n="7">
+                        <bibl>
+                            <citedRange unit="page" from="263" to="263">263</citedRange>
+                        </bibl>
+                        <p>
+                            <persName ref="#AGP">Angelica Paola Giuffrida</persName> (<placeName ref="#CT">Catania</placeName>, <date when="1811">1811</date> - <date when="1844">1844</date>), chiamata confidenzialmente “Lidda”, figlia di <persName ref="#IGM">Ignazio Giuffrida Moschetti</persName> e Giuseppa Nicotra e consorte di Gaetano Paola. A lei <persName ref="#VB" role="composer">Bellini</persName> dedicò una versione della Cavatina per canto e pianoforte «Dolente immagine di Fille mia». [...]
+                        </p>
+                    </note>
+
+                    <note xml:id="LL1_26_note_8" resp="#GS" source="#Seminara2017" ana="863" n="8">
+                        <bibl>
+                            <citedRange unit="page" from="506" to="506">506</citedRange>
+                        </bibl>
+                        <p>
+                            <persName ref="#GAPC">Giuseppe Alvaro Paternò Castello</persName>, III principe di Sperlinga e III principe di Manganelli (<placeName ref="#CT">Catania</placeName>, <date when="1784">1784</date> - <placeName ref="#NA">Napoli</placeName>, <date when="1836">1836</date>), che fu successore di Stefano Notarbartolo nel ruolo di Intendente del Valle di Catania.  
+                        </p>
+                    </note>
+
+                    <note xml:id="LL1_26_note_9" resp="#GS" source="#Seminara2017" ana="863" n="9">
+                        <bibl>
+                            <citedRange unit="page" from="506" to="506">506</citedRange>
+                        </bibl>
+                        <p>
+                            Colui che <persName ref="#VB" role="composer">Bellini</persName> designava come “principino Manganelli” era <persName ref="#APC">Antonino Paternò Castello</persName> (1817-1888), che nel <date when="1838">1838</date> – alla morte del padre <persName ref="#GAPC">Giuseppe Alvaro</persName> – sarebbe diventato IV Principe di Sperlinga e IV Principe di Manganelli.
+                        </p>
+                    </note>
+
+                    <note xml:id="LL1_26_note_10" resp="#CG" n="10">
+						<p>
+						    Con l'espressione S:n Giuliano, <persName ref="#VB" role="composer">Bellini</persName> si riferiva ad una persona, probabilmente allo stesso <persName ref="#APC">Antonino Paternò Castello</persName>. Tuttavia, non si hanno sufficienti informazioni a riguardo. 
+						</p>
+					</note>
+                </div>
+                
+                <div type="bibliography">
+                    <listBibl xml:id="LL1_26_bibliography">
+                        <head>Bibliografia della lettera LL1.26 </head>
+                        <bibl xml:id="LL1_26_Amore">
+                            <ref target="#Amore1994">
+									 <bibl>
+										<author>
+                                            <surname>Amore</surname>
+                                        </author>
+										<date when="1894">1894</date>
+										<citedRange unit="page" from="362" to="364">362-364</citedRange>
+									</bibl>
+								</ref>
+						</bibl>
+
+                        <bibl xml:id="LL1_26_Cambi">
+                            <ref target="#Cambi1943">
+									 <bibl>
+										<author>
+                                            <surname>Cambi</surname>
+                                        </author>
+										<date when="1943">1943</date>
+										<citedRange unit="page" from="553" to="555">553-555</citedRange>
+									</bibl>
+								</ref>
+						</bibl>
+
+                        <bibl xml:id="LL1_26_Neri">
+                            <ref target="#Neri2005">
+									 <bibl>
+										<author>
+                                            <surname>Neri</surname>
+                                        </author>
+										<date when="2005">2005</date>
+										<citedRange unit="page" from="409" to="410">409-410</citedRange>
+									</bibl>
+								</ref>
+						</bibl>
+
+                        <bibl xml:id="LL1_26_Seminara">
+                            <ref target="#Seminara2017">
+									 <bibl>
+										<author>
+                                            <surname>Seminara</surname>
+                                        </author>
+										<date when="2017">2017</date>
+										<citedRange unit="page" from="505" to="506">505-506</citedRange>
+									</bibl>
+								</ref>
+						</bibl>
+                    </listBibl>
+                </div>
+            </div>
+
+            <div type="biblCompleta">
+                <listBibl type="bibliografia">
+                    <head>Bibliografia Completa</head>
+                    <bibl xml:id="Amore1894" type="print">
+                        <author xml:id="AA">
+                            <forename>Antonino</forename>
+                            <surname>Amore</surname>
+                        </author>
+                        <title level="m">Vincenzo Bellini. Vita. Studi e ricerche</title>
+                        <pubPlace>Catania</pubPlace>
+                        <publisher>Giannotta</publisher>
+                        <date when="1894">1894</date>
+                    </bibl>
+
+                    <bibl xml:id="Cambi1943" type="print">
+                        <author xml:id="LC"> 
+                            <forename>Luisa</forename>
+                            <surname>Cambi</surname> 
+                        </author>
+                        <title level="m">Bellini. Epistolario</title>
+                        <pubPlace>Milano</pubPlace>
+                        <publisher>Mondadori</publisher>
+                        <date when="1943">1943</date>
+                    </bibl>
+
+                    <bibl xml:id="Neri2005" type="print">
+                        <author xml:id="CN">
+                            <forename>Carmelo</forename>
+                            <surname>Neri</surname>
+                        </author>
+                        <title level="m">Vincenzo Bellini. Nuovo Epistolario. 1819-1835</title>
+                        <pubPlace>Catania</pubPlace>
+                        <publisher>Agorà</publisher>
+                        <date when="2005">2005</date>
+                    </bibl>
+
+                    <bibl xml:id="Seminara2017" type="print">
+                        <editor ref="#GS">
+                            <forename>Graziella</forename>
+                            <surname>Seminara</surname>
+                        </editor>
+                        <title level="m">Vincenzo Bellini. Carteggi</title>
+                        <title level="s">Historiae Musicae Cultores</title>
+                        <biblScope unit="volume">CXXXI</biblScope>
+                        <biblScope unit="page">pp. vi+622</biblScope>
+                        <pubPlace>Firenze</pubPlace>
+                        <publisher>Leo S. Olschki Editore</publisher>
+                        <date when="2017">2017</date>                       
+                    </bibl>
+                </listBibl>
+            </div>
+            <div type="work">
+                <listBibl>
+                    <head>Lista delle opere</head>
+                    <bibl xml:id="Puritani">
+                        <ref target="http://www.treccani.it/enciclopedia/i-puritani/"/>
+                        <title>I puritani</title>
+                        <ref target="#VB"/><persName ref="#VB" role="composer">Vincenzo Bellini</persName>
+                        <ref target="#CP"/><persName ref="#CP" role="composer">Carlo Pepoli</persName>
+                        <orgName type="theatre" ref="TEI-ListOrganization.xml#Teatro_italiano">Théâtre de la comédie italienne</orgName>
+                        <placeName ref="#Paris">Paris</placeName>
+                        <date when="1835-01-24">24 gennaio 1835</date> 
+                        <note resp="#GS">
+                            <p>
+                                Composti da <persName ref="#VB">Bellini</persName> su <term subtype="music-term" ref="#libretto">libretto</term> di <persName ref="#CP">Carlo Pepoli </persName>, I puritani si ispiravano al dramma storico <hi rend="italic">Têtes rondes et Cavaliers</hi> di <persName>Jacques-Arsène Ancelot</persName> e <persName>Joseph-Xavier-Boniface Saintine</persName>, che era andato in <term subtype="music-term" ref="TEI-ListTerm.xml#scena">scena</term> al <orgName type="theatre">Théâtre du Vaudeville</orgName> il <date when="1833-09-25">25 settembre 1833</date> e in quello stesso anno era stato pubblicato a <placeName ref="#Paris">Parigi</placeName> dall’editore <persName>Barba</persName>. L’<term subtype="music-term" ref="#opera">opera</term> fu rappresentata al <orgName type="theatre" ref="TEI-ListOrganization.xml#Teatro_italiano">Théâtre Italien</orgName> di <placeName ref="#Paris">Parigi</placeName> il <date when="1835-01-24">24 gennaio 1835</date> e incontrò uno trionfale successo, grazie anche all’interpretazione del “<term subtype="music-term">quartetto</term>” di cantanti <persName>Giulia Grisi</persName> (“<term subtype="music-term">soprano</term>), Giovanni Battista Rubini (“<term subtype="music-term" ref="TEI-ListTerm.xml#tenore">tenore</term>), Antonio Taburini (“<term subtype="music-term">baritono</term>), Luigi Lablache (“<term subtype="music-term" ref="TEI-ListTerm.xml#basso">basso</term>).
+                            </p>
+                        </note>
+                        <note resp="#EC">
+                            <p>
+                                <term subtype="music-term" ref="TEI-ListTerm.xml#opera_seria">Opera seria</term> in tre <term subtype="music-term" ref="TEI-ListTerm.xml#atto">atti</term>. Il dramma storico <hi rend="italic">Têtes rondes et Cavaliers</hi> a sua volta era derivato dal romanzo Old mortality (<date when="1816">1816</date>) di Walter Scott che fu tradotto in Italia nel 1822 col titolo I puritani di Scozia. Essendo in rotta con il librettista <persName ref="TEI-ListPerson.xml#FR">Felice Romani</persName>, Bellini accettò il testo approntato dal conte Pepoli, distinto letterato ma che non aveva alcuna esperienza di teatro: l’ultima <term subtype="music-term" ref="#opera">opera</term> del Cigno fu composta pertanto nell’arco di ben nove mesi, un tempo decisamente ampio durante il quale musicista e librettista lavorarono fianco a fianco nella costruzione dell’impianto drammaturgico.
+                            </p>
+                        </note>
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>
